@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.header .logo-link {
+    width: 15%;
+    min-width: 200px;
+}
+
+.header .logo{
+    width: 100%;
+}

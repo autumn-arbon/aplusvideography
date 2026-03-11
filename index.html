@@ -5,11 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A+ Videography - Home</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="video.js" defer></script>
 </head>
 <body>
     <div class="header">
+        <a class="logo-link" href="/index.html">
+            <img class="logo" src="3d-logo.png">
+        </a>
     </div>
-    <h1>A+ Videography</h1>
+    <h2 class="section-header">Business</h2>
+    <div class="section row">
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1164854025?h=b33ad053c7">
+                <img src="thumbnails/chirotrust.jpg" class="thumbnail"/>
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1150185746?h=3242a782f0">
+                <img src="thumbnails/greenix.jpg" class="thumbnail"/>
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1148993482?h=86b4a83564">
+                <img src="thumbnails/girlsontherun1.jpg" class="thumbnail"/>
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <a href="/business.html">
+            <p class="link-text">See All</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+        </a>
+    </div>
+    <h2 class="section-header">Sports</h2>
+    <div class="section row">
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1170892997?h=d28347f05e">
+                <img class="thumbnail" src="thumbnails/sportsdemo.jpg">
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1171821658?h=edae887c7e">
+                <img class="thumbnail" src="thumbnails/5A6ABasketball.jpg">
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <div class="row-item">
+            <div class="thumbnail-container" data-video="1171098340?h=b8a5f680de">
+                <img class="thumbnail" src="thumbnails/homecoming.jpg">
+                <div class="play-button"></div>
+            </div>
+        </div>
+        <a href="/sports.html">
+            <p class="link-text">See All</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+        </a>
+    </div>
+    
+    <div id="video-lightbox">
+        <div class="lightbox-content">
+          <span class="close-video">&times;</span>
+          <div id="video-frame"></div>
+        </div>
+    </div>
 </body>
 </html>
