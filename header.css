@@ -10,6 +10,10 @@
     min-width: 200px;
 }
 
+.header .logo-link:hover {
+    opacity: 0.7;
+}
+
 .header .logo{
     width: 100%;
 }
